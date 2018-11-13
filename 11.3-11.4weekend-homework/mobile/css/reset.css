@@ -1,0 +1,45 @@
+@charset "UTF-8";
+a, applet, b, body, code, dd, del, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, label, li, object, ol, p, pre, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, u, ul{margin:0; padding:0;border:0;outline:0;}
+hr,blockquote, legend, button, input, textarea{ margin:0; padding:0;}
+button, input, select, textarea { font:tahoma, arial, \5b8b\4f53; }
+/* h1, h2, h3, h4, h5, h6{ font-size:100%; } */
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+body{font-family:"Microsoft YaHei"}
+
+ul, ol { list-style:none; }
+a { text-decoration:none; color:#333;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;display:inline-block;}
+a:hover { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+address,caption,cite,code,dfn,th,var,em {
+    font-style: normal;
+    font-weight: normal
+}
+i{font-style:italic;}
+legend { color:#000; }
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+select,input {
+    vertical-align: middle
+}
+select,input,textarea {
+    margin: 0
+}
+input{outline-style: none;}
+input[type="text"],input[type="password"],textarea {
+    outline-style: none;
+    -webkit-appearance: none
+}
+fieldset, img { border:0; }
+/* button, input, select, textarea { font-size:100%; } */
+textarea {resize: none}
+table { border-collapse:collapse; border-spacing:0; }
+.clearfix::after{content: ""; display: block; clear: both;}
+/*以上是整个页面公共声明*/

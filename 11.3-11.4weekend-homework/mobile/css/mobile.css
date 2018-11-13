@@ -1,0 +1,132 @@
+/* media */
+@media screen and (max-width:750px){
+	html{font-size:100px;}
+}
+@media screen and (max-width:640px){
+	html{font-size:85.3333px;}
+}
+@media screen and (max-width:540px){
+	html{font-size:72px;}
+}
+@media screen and (max-width:480px){
+	html{font-size:64px;}
+}
+@media screen and (max-width:411px){
+	html{font-size:54.8px;}
+}
+@media screen and (max-width:414px){
+	html{font-size:55.2px;}
+}
+@media screen and (max-width:400px){
+	html{font-size:53.3333px;}
+}
+@media screen and (max-width:375px){
+	html{font-size:50px;}
+}
+@media screen and (max-width:360px){
+	html{font-size:48px;}
+}
+@media screen and (max-width:320px){
+	html{font-size:42.6667px;}
+}
+body{font-size:0.26rem;}
+.flo-l{float:left;}
+.flo-r{float:right;}
+i{display:inline-block;}
+
+/* 头部样式 */
+.header{width:7.5rem;height:0.88rem;background:#31a9ee;font-size:0.26rem;}
+.header-con{width:100%;}
+.city{width:1.35rem;line-height:0.88rem}
+.city-name{color:#fff;margin-left:0.2rem;}
+.city-arrow{display:inline-block;width:0.23rem;height:0.13rem;background:url("../images/header-arrow.png")no-repeat;background-size:0.23rem 0.13rem;vertical-align:top;margin-top:0.375rem;}
+.search{width:5rem;height:100%;}
+.search form{position:relative;width:100%;}
+.search input{width:5rem;height:0.6rem;outline:none;border:0;border-radius:10rem;margin-top:0.14rem;text-indent:4em;}
+.search-icon{position:absolute;top:0.29rem;left:0.4rem;width:0.3rem;height:0.3rem;background:url("../images/header-search-icon.png")no-repeat;background-size:0.3rem 0.3rem;}
+.message{width:1.15rem;height:100%;text-align:center;line-height:0.88rem;color:#fff;}
+.message i{width:0.44rem;font-size:0.3rem;}
+
+/* banner图样式 */
+.banner1{width:7.5rem;height:3.63rem;}
+.banner1 img{width:100%;}
+
+/* 分类服务列表 */
+#list{width:7.5rem;height:1.54rem;padding:0.5rem 0;font-size:0.26rem;overflow:hidden;}
+.list-box{display:flex;width:100%;}
+.item{margin:0 0.35rem;text-align:center;}
+.item img{width:1rem;margin-bottom:0.1rem;}
+
+/* 推荐服务样式 */
+.recommendation-service{width:100%;font-size:0.26rem;}
+.title h3{margin:0.3rem 0 0.3rem 0.45rem;}
+.service-img{width:100%;}
+.service-img img{display:block;width:6.6rem;margin:0 0 0 0.45rem;}
+
+.integral-coupon-box{width:100%;padding-top:0.3rem;}
+.integral-coupon-con{display:flex;width:6.9rem;padding:0 0.3rem;justify-content:space-around;}
+.integral,.coupon{width:2.83rem;height:1.33rem;border:1px solid #eee;border-radius:5px;padding:0 0.15rem;}
+.integral .flo-l,.coupon .flo-l{height:0.8rem;padding-top:0.3rem;}
+.integral .flo-l h3,.coupon .flo-l h3{margin-bottom:0.1rem;}
+.integral .flo-l p,.coupon .flo-l p{font-size:0.2rem;}
+.integral .flo-r,.coupon .flo-r{height:100%;}
+.integral img,.coupon img{width:1rem;margin-top:0.165rem;}
+/* 签到样式 */
+.sign-in{width:100%;}
+.sign-in-con{width:7.1rem;padding:0 0.2rem;margin-top:0.58rem;}
+.sign-in-con img{width:100%;}
+
+/* 热门活动及品牌推荐样式 */
+.popular-activity,
+.recommendation-brand{width:100%;}
+.popular-activity-box,
+.brand-box,
+.highlights-box{margin-top:0.2rem;height:0.6rem;line-height:0.6rem;}
+.popular-activity .flo-l,
+.brand-box .flo-l,
+.highlights-box .flo-l{margin-left:0.2rem;}
+.popular-activity .flo-r,
+.brand-box .flo-r,
+.highlights-box .flo-r{margin-right:0.2rem;}
+.more,
+.all{font-size:0.2rem;}
+.activity-img,
+.brand-img{width:100%;}
+.activity-img img{width:7.1rem;margin-left:0.2rem;}
+.brand-img img{width:6.87rem;margin-left:0.315rem;}
+
+/* 精彩瞬间样式 */
+.highlights{width:100%;}
+.highlights-con{width:100%;}
+.highlights-img{width:7.1rem;margin-left:0.2rem;}
+.highlights-img a{display:inline;}
+.highlights-img img{display:block;width:100%;}
+.highlights-summary{width:100%;}
+.blog-message-box{width:7.1rem;margin-left:0.2rem;background:#f3f3f3;padding-top:0.24rem;}
+.blog-message{width:6.62rem;margin-left:0.24rem;border-bottom:1px solid #dcdcdc;padding-bottom:0.18rem;}
+.blogger-pic,
+.clicking-rate{height:0.7rem;line-height:0.7rem}
+.blogger-pic a{display:inline;}
+.blogger-pic img{width:0.7rem;vertical-align:middle;}
+.blogger-name{color:#666;}
+
+.clicking-rate i{margin-left:5px;margin-right:5px;}
+.desc{width:6.62rem;margin-left:0.24rem;padding-top:0.2rem;}
+.desc p{padding-bottom:0.28rem;}
+.label span{color:#33aaee;margin-right:0.2rem;font-size:0.24rem;}
+
+.blue{color:#33aaee}
+.gray{color:#999;}
+.color333{color:#333;font-size:0.28rem;font-weight:600;}
+.color666{color:#666;}
+.marginB{margin-bottom:1rem;}
+
+/* 底部样式 */
+.footer{position:fixed;bottom:0;width:100%;height:1rem;background:#fff;}
+.function-icon{height:100%;display:flex;justify-content:space-around;align-items:center;}
+.function-icon{text-align:center;}
+.function-icon li a{color:#ccc;}
+.function-icon .homepage a{color:#16a0f0;}
+.function-icon li p{font-size:0.18rem;}
+.function-icon i{font-size:0.4rem;}
+
